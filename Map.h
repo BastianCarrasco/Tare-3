@@ -29,6 +29,8 @@ typedef struct{
   
 }Libros;
 
+
+
 Map * createMap(int (*is_equal)(void* key1, void* key2));
 
 void insertMap(Map * map, void * key, void * value);
