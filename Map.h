@@ -15,7 +15,7 @@ typedef struct{
 
   char palabra[1000];
   int cont;
-  char word[10];
+ // char word[10];
   int no_repetidos;
 
 }datos;

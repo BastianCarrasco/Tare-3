@@ -119,8 +119,6 @@ setSortFunction(libro_palabras, lower_than_string);
 Map* datos_palabras = createMap(is_equal_string);
 setSortFunction(datos_palabras, lower_than_string);
 
-Map* contar = createMap(is_equal_string);
-setSortFunction(contar, lower_than_string);
 
 /*
 // MAPA INT CON CLAVE STOCK //
@@ -321,16 +319,6 @@ int op=10;
               }
             }
          
-
-     c = firstMap(datos_palabras);
-
-    while(c!=NULL){
-      sprintf(cambio, "%d", c->cont);
-      strcpy(c->word,cambio);
-
-      insertMap(contar,c->word,c);
-      c = nextMap(datos_palabras);
-    }
 
     c = firstMap(datos_palabras);
 
